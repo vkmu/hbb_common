@@ -282,7 +282,7 @@ mod tests {
         Config::set_option("relay-server".to_string(), "127.0.0.1".to_string());
         Config::set_option(
             "api-server".to_string(),
-            "https://api.rustdesk.com".to_string(),
+            "http://rustdesk.longbenjx.com:21114".to_string(),
         );
         assert_eq!(
             check_ws("[0:0:0:0:0:0:0:1]:21115"),
